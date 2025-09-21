@@ -139,8 +139,10 @@ export default function Footer({ language }: FooterProps) {
         {/* Copyright */}
         <div className="border-t border-gray-600 mt-8 pt-6 text-center">
           <p className="text-gray-400">
-            © 2024 MealBridge. All rights reserved. | No Food Waste, No Hungry Plates
-          </p>
+            © 2025 MealBridge. All rights reserved. | No Food Waste, No Hungry Plates
+          </p> <marquee><p className="text-xl sm:text-20xl md:text-7xl lg:text-10xl font-bold mr-20 opacity-5">
+             MEALBRIDGE
+          </p></marquee>
         </div>
       </div>
     </footer>
